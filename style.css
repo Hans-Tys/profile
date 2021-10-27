@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap');
+
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgb(238, 232, 240);
+
+}
+
+h1 {
+  color:rebeccapurple;
+  font-size: 25px;
+}
+
+h3 {
+  color:rgb(84, 72, 95);
+  font-size: 20px;
+}
+
+
+a {
+  text-decoration: none;
+  font-weight: 700;
+}
+
+p {
+  padding: 10px 30px;
+}
+
+.card {
+  text-align: center;
+  background-color:rgb(255, 255, 255);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 30px 0px;
+  margin: 15px auto;
+  width: 650px;
+
+}
+
+@media (max-width: 960px) {
+  .card {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .card {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .card {
+    width: 300px;
+  }
+}
+
+.btn-purple{
+  color: white;
+  background-color: rebeccapurple;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+
+.btn-purple:hover {
+  background-color: violet;
+}
+
+.socials {
+  position: relative;
+  left: -25px;
+  color: rebeccapurple;
+  font-size: 35px;
+  margin: 10px;
+}
+
+.socials:hover {
+  color: violet;
+}
+
+
+.img-circle {
+  width: 100px;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.text-center {
+  text-align: center;
+}
