@@ -29,6 +29,7 @@ p {
 }
 
 .card {
+  border-radius: 10px;
   text-align: center;
   background-color:rgb(255, 255, 255);
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -64,6 +65,11 @@ iframe{
   background-color: rebeccapurple;
   padding: 5px 15px;
   border-radius: 5px;
+  position: relative;
+  animation-name: dodge;
+  animation-duration: 5s;
+  animation-iteration-count: 50;
+  animation-delay: 20s;
 }
 
 .btn-purple:hover {
@@ -90,4 +96,13 @@ iframe{
 }
 .text-center {
   text-align: center;
+}
+
+
+@keyframes dodge {
+  0%   {right:0px; bottom:0px;}
+  25%  {right:2000px; bottom:0px;}
+  50%  {right:200px; bottom:800px;}
+  75%  {right:-2000px; bottom:200px;}
+  100% {right:0px; bottom:0px;}
 }
